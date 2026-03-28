@@ -55,14 +55,14 @@ export default function Home() {
             <span className="font-mono text-[12px] leading-[1.6] text-[#CCCCCC] font-bold shrink-0">
               ›
             </span>
-            <span className="font-mono text-[12px] leading-[1.6] text-white font-semibold truncate">
+            <span className="font-mono text-[12px] leading-[1.6] text-white font-semibold truncate lg:overflow-visible lg:text-clip">
               export this to damelo mcp.
             </span>
           </div>
           <div className="flex flex-col pt-1.5 gap-0.5">
             <div className="flex items-start gap-2 min-w-0">
               <div className="w-1.75 h-1.75 shrink-0 mt-1.25 rounded-full bg-[#CCCCCC]" />
-              <span className="font-mono text-[12px] leading-[1.6] text-[#CCCCCC] truncate">
+              <span className="font-mono text-[12px] leading-[1.6] text-[#CCCCCC] truncate lg:overflow-visible lg:text-clip">
                 share – export_session (MCP)
               </span>
             </div>
@@ -75,7 +75,7 @@ export default function Home() {
               <span className="font-mono text-[12px] leading-[1.6] text-[#E06C75] font-semibold shrink-0">
                 Beboppin&apos;
               </span>
-              <span className="font-mono text-[12px] leading-[1.6] text-[#777777] truncate">
+              <span className="font-mono text-[12px] leading-[1.6] text-[#777777] truncate lg:overflow-visible lg:text-clip">
                 (41s ··· ↓ 129 tokens)
               </span>
             </div>
@@ -83,7 +83,7 @@ export default function Home() {
               <span className="font-mono text-[12px] leading-[1.6] text-[#555555] shrink-0">
                 L
               </span>
-              <span className="font-mono text-[12px] leading-[1.6] text-[#777777] truncate">
+              <span className="font-mono text-[12px] leading-[1.6] text-[#777777] truncate lg:overflow-visible lg:text-clip">
                 Tip: Use /btw to ask a quick side question...
               </span>
             </div>
@@ -91,8 +91,8 @@ export default function Home() {
           <div className="flex flex-col pt-1.5 gap-1">
             <div className="flex items-start gap-2 min-w-0">
               <div className="w-1.75 h-1.75 shrink-0 mt-1.25 rounded-full bg-[#CCCCCC]" />
-              <span className="font-mono text-[12px] leading-[1.6] text-[#CCCCCC] truncate">
-                Exported: https://damelo.sh/reports/doasf...
+              <span className="font-mono text-[12px] leading-[1.6] text-[#CCCCCC] truncate lg:overflow-visible lg:text-clip">
+                Exported: https://damelo.sh/reports/doasfrancisco/1b5933e2
               </span>
             </div>
             <div className="flex items-center pt-2 gap-2">
@@ -144,20 +144,20 @@ export default function Home() {
                 <span className="text-[12px] leading-[1.6] text-[#CCCCCC] font-bold shrink-0">
                   ›
                 </span>
-                <span className="text-[12px] leading-[1.6] text-white font-semibold truncate">
+                <span className="text-[12px] leading-[1.6] text-white font-semibold truncate lg:overflow-visible lg:text-clip">
                   export this to damelo
                 </span>
               </div>
               <div className="flex items-start pt-1.5 gap-2 min-w-0">
                 <div className="w-1.75 h-1.75 mt-1.25 shrink-0 rounded-full bg-[#CCCCCC]" />
-                <span className="text-[12px] leading-[1.6] text-[#CCCCCC] truncate">
+                <span className="text-[12px] leading-[1.6] text-[#CCCCCC] truncate lg:overflow-visible lg:text-clip">
                   share – export_session (MCP)
                 </span>
               </div>
               <div className="flex items-start pt-1 gap-2 min-w-0">
                 <div className="w-1.75 h-1.75 mt-1.25 shrink-0 rounded-full bg-[#CCCCCC]" />
-                <span className="text-[12px] leading-[1.6] text-[#CCCCCC] truncate">
-                  Exported: https://damelo.sh/reports/doasf...
+                <span className="text-[12px] leading-[1.6] text-[#CCCCCC] truncate lg:overflow-visible lg:text-clip">
+                  Exported: https://damelo.sh/reports/doasfrancisco/1b5933e2
                 </span>
               </div>
               <div className="flex items-center pt-1.5 gap-2">
@@ -198,13 +198,13 @@ export default function Home() {
                 <span className="text-[12px] leading-[1.6] text-[#CCCCCC] font-bold shrink-0">
                   ›
                 </span>
-                <span className="text-[12px] leading-[1.6] text-white font-semibold truncate">
+                <span className="text-[12px] leading-[1.6] text-white font-semibold truncate lg:overflow-visible lg:text-clip">
                   /tomalo
                 </span>
               </div>
               <div className="flex items-start pt-1.5 gap-2 min-w-0">
                 <div className="w-1.75 h-1.75 mt-1.25 shrink-0 rounded-full bg-[#CCCCCC]" />
-                <span className="text-[12px] leading-[1.6] text-[#CCCCCC] truncate">
+                <span className="text-[12px] leading-[1.6] text-[#CCCCCC] truncate lg:overflow-visible lg:text-clip">
                   session-exporter(Export session to D&aacute;melo)
                 </span>
               </div>
@@ -212,25 +212,25 @@ export default function Home() {
                 <span className="text-[12px] leading-[1.6] text-[#555555] shrink-0">
                   L
                 </span>
-                <span className="text-[12px] leading-[1.6] text-[#777777] truncate">
+                <span className="text-[12px] leading-[1.6] text-[#777777] truncate lg:overflow-visible lg:text-clip">
                   Backgrounded agent (↓ to manage)
                 </span>
               </div>
               <div className="flex items-start pt-1 gap-2 min-w-0">
                 <div className="w-1.75 h-1.75 mt-1.25 shrink-0 rounded-full bg-[#CCCCCC]" />
-                <span className="text-[12px] leading-[1.6] text-[#CCCCCC] truncate">
+                <span className="text-[12px] leading-[1.6] text-[#CCCCCC] truncate lg:overflow-visible lg:text-clip">
                   Exporting in the background. I&apos;ll let you know...
                 </span>
               </div>
               <div className="flex items-start pt-1 gap-2 min-w-0">
                 <div className="w-1.75 h-1.75 mt-1.25 shrink-0 rounded-full bg-[#4EC86C]" />
-                <span className="text-[12px] leading-[1.6] text-[#4EC86C] truncate">
+                <span className="text-[12px] leading-[1.6] text-[#4EC86C] truncate lg:overflow-visible lg:text-clip">
                   Agent &quot;Export session to D&aacute;melo&quot; completed
                 </span>
               </div>
               <div className="flex items-start pt-1 gap-2 min-w-0">
                 <div className="w-1.75 h-1.75 mt-1.25 shrink-0 rounded-full bg-[#CCCCCC]" />
-                <span className="text-[12px] leading-[1.6] text-[#CCCCCC] truncate">
+                <span className="text-[12px] leading-[1.6] text-[#CCCCCC] truncate lg:overflow-visible lg:text-clip">
                   Export done.
                 </span>
               </div>
@@ -254,13 +254,13 @@ export default function Home() {
                 <span className="font-mono text-[12px] leading-[1.6] text-[#CCCCCC] shrink-0">
                   ›
                 </span>
-                <span className="font-mono text-[12px] leading-[1.6] text-white font-semibold truncate">
+                <span className="font-mono text-[12px] leading-[1.6] text-white font-semibold truncate lg:overflow-visible lg:text-clip">
                   export this to damelo
                 </span>
               </div>
               <div className="flex items-start pt-1 gap-2">
                 <div className="shrink-0 mt-1.25 rounded-full bg-[#CCCCCC] size-1.5" />
-                <span className="font-mono text-[12px] leading-[1.6] text-[#777777] truncate">
+                <span className="font-mono text-[12px] leading-[1.6] text-[#777777] truncate lg:overflow-visible lg:text-clip">
                   share – export_session (MCP)
                 </span>
               </div>
@@ -278,13 +278,13 @@ export default function Home() {
                 <span className="font-mono text-[12px] leading-[1.6] text-[#CCCCCC] shrink-0">
                   ›
                 </span>
-                <span className="font-mono text-[12px] leading-[1.6] text-white font-semibold truncate">
+                <span className="font-mono text-[12px] leading-[1.6] text-white font-semibold truncate lg:overflow-visible lg:text-clip">
                   show me team sessions
                 </span>
               </div>
               <div className="flex items-start pt-1 gap-2">
                 <div className="shrink-0 mt-1.25 rounded-full bg-[#CCCCCC] size-1.5" />
-                <span className="font-mono text-[12px] leading-[1.6] text-[#777777] truncate">
+                <span className="font-mono text-[12px] leading-[1.6] text-[#777777] truncate lg:overflow-visible lg:text-clip">
                   share – list_team_sessions (MCP)
                 </span>
               </div>
@@ -302,13 +302,13 @@ export default function Home() {
                 <span className="font-mono text-[12px] leading-[1.6] text-[#CCCCCC] shrink-0">
                   ›
                 </span>
-                <span className="font-mono text-[12px] leading-[1.6] text-white font-semibold truncate">
+                <span className="font-mono text-[12px] leading-[1.6] text-white font-semibold truncate lg:overflow-visible lg:text-clip">
                   import carlos&apos;s last session
                 </span>
               </div>
               <div className="flex items-start pt-1 gap-2">
                 <div className="shrink-0 mt-1.25 rounded-full bg-[#CCCCCC] size-1.5" />
-                <span className="font-mono text-[12px] leading-[1.6] text-[#777777] truncate">
+                <span className="font-mono text-[12px] leading-[1.6] text-[#777777] truncate lg:overflow-visible lg:text-clip">
                   share – import_session (MCP)
                 </span>
               </div>
