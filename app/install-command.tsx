@@ -67,7 +67,7 @@ export function InstallCommand() {
       {/* Install Command */}
       <button
         onClick={handleCopy}
-        className="flex items-center w-130 rounded-[10px] py-4 px-6 gap-3 bg-[#111111] border border-solid border-[#222222] cursor-pointer hover:bg-[#161616] transition-colors"
+        className="flex items-center w-full lg:w-130 rounded-[10px] py-4 px-6 gap-3 bg-[#111111] border border-solid border-[#222222] cursor-pointer hover:bg-[#161616] transition-colors"
       >
         <span className="grow font-mono text-[15px] text-[#CCCCCC] text-left">
           {commands[os]}

@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-full bg-black antialiased text-sm">
       {/* Navbar */}
-      <nav className="flex justify-between items-center w-full py-6 px-20">
+      <nav className="flex justify-between items-center w-full py-6 px-6 lg:px-20">
         <Image
           src="/logo.png"
           alt="DAMELO.SH"
           width={200}
           height={40}
-          className="h-10 w-auto"
+          className="h-8 lg:h-10 w-auto"
         />
         <a
           href="https://github.com/Damelo-MCP/mcp"
@@ -29,28 +29,28 @@ export default function Home() {
           >
             <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
           </svg>
-          <span className="text-white font-medium text-[18px]">GitHub</span>
+          <span className="text-white font-medium text-[18px] hidden lg:inline">
+            GitHub
+          </span>
         </a>
       </nav>
 
       {/* Hero */}
-      <main className="flex justify-center items-center pt-20 pb-15 gap-20 px-32">
+      <main className="flex flex-col lg:flex-row lg:justify-center items-center pt-12 lg:pt-20 pb-15 gap-10 lg:gap-20 px-6 lg:px-32">
         <div className="flex flex-col max-w-140 gap-6">
-          <h1 className="text-[56px] tracking-[-2px] leading-[1.05] text-white font-extrabold italic">
+          <h1 className="text-[36px] lg:text-[56px] tracking-[-2px] leading-[1.05] text-white font-extrabold italic">
             Share your AI sessions with your team.
           </h1>
-          <p className="text-[18px] leading-[1.6] text-[#888888]">
+          <p className="text-[16px] lg:text-[18px] leading-[1.6] text-[#888888]">
             Export, import, and browse Claude Code sessions across your
             organization. Nothing gets lost.
           </p>
 
           <InstallCommand />
-
         </div>
 
         {/* Terminal Mockup */}
-        <div className="flex flex-col w-140 rounded-xl bg-[#0c0c0c] border border-solid border-[#222222] shrink-0 p-4">
-          {/* User prompt */}
+        <div className="flex flex-col w-full lg:w-140 rounded-xl bg-[#0c0c0c] border border-solid border-[#222222] shrink-0 p-4 overflow-x-auto">
           <div className="flex items-start rounded-sm py-1.5 px-3 gap-2 bg-[#0c0c0c]">
             <span className="font-mono text-[12px] leading-[1.6] text-[#CCCCCC] font-bold shrink-0">
               ›
@@ -59,8 +59,6 @@ export default function Home() {
               export this to damelo mcp.
             </span>
           </div>
-
-          {/* MCP call */}
           <div className="flex flex-col pt-1.5 gap-0.5">
             <div className="flex items-start gap-2">
               <div className="w-1.75 h-1.75 shrink-0 mt-1.25 rounded-full bg-[#CCCCCC]" />
@@ -69,8 +67,6 @@ export default function Home() {
               </span>
             </div>
           </div>
-
-          {/* Beboppin */}
           <div className="flex flex-col pt-1 gap-0.5">
             <div className="flex items-start gap-2">
               <span className="font-mono text-[12px] leading-[1.6] text-[#E06C75] font-bold shrink-0">
@@ -93,8 +89,6 @@ export default function Home() {
               </span>
             </div>
           </div>
-
-          {/* Exported result */}
           <div className="flex flex-col pt-1.5 gap-1">
             <div className="flex items-start gap-2">
               <div className="w-1.75 h-1.75 shrink-0 mt-1.25 rounded-full bg-[#CCCCCC]" />
@@ -121,13 +115,13 @@ export default function Home() {
       </main>
 
       {/* How to use */}
-      <section className="flex flex-col items-center pt-20 pb-10 gap-10 px-20">
+      <section className="flex flex-col items-center pt-12 lg:pt-20 pb-10 gap-10 px-6 lg:px-20">
         <h2 className="uppercase tracking-[2px] text-[#555555] font-bold text-sm">
           How to use
         </h2>
-        <div className="flex w-full px-20 gap-6">
+        <div className="flex flex-col lg:flex-row w-full lg:px-20 gap-6">
           {/* Talk to Claude */}
-          <div className="flex flex-col w-1/2 rounded-xl gap-5 bg-black border border-solid border-[#222222] shrink-0 p-8">
+          <div className="flex flex-col lg:w-1/2 rounded-xl gap-5 bg-black border border-solid border-[#222222] shrink-0 p-6 lg:p-8">
             <div className="flex items-center gap-2.5">
               <div className="flex items-center justify-center rounded-lg bg-[#1A1A1A] border border-solid border-[#333333] shrink-0 size-8 overflow-hidden">
                 <Image
@@ -146,7 +140,7 @@ export default function Home() {
               Just ask Claude to export, import, or browse sessions. The MCP
               handles everything behind the scenes.
             </p>
-            <div className="flex flex-col rounded-[10px] py-4 px-5 gap-1 bg-black font-mono">
+            <div className="flex flex-col rounded-[10px] py-4 px-5 gap-1 bg-black font-mono overflow-x-auto">
               <div className="flex rounded-[3px] py-1 px-2 gap-2 bg-[#0c0c0c]">
                 <span className="text-[12px] leading-[1.6] text-[#CCCCCC] font-bold shrink-0">
                   ›
@@ -185,7 +179,7 @@ export default function Home() {
           </div>
 
           {/* Use /tomalo */}
-          <div className="flex flex-col grow shrink basis-0 rounded-xl gap-5 bg-black border border-solid border-[#222222] p-8">
+          <div className="flex flex-col grow shrink basis-0 rounded-xl gap-5 bg-black border border-solid border-[#222222] p-6 lg:p-8">
             <div className="flex items-center gap-2.5">
               <div className="flex items-center justify-center rounded-lg bg-[#1A1A1A] border border-solid border-[#333333] shrink-0 size-8">
                 <span className="font-mono text-[#CCCCCC] font-bold text-sm">
@@ -200,7 +194,7 @@ export default function Home() {
               Run the slash command. It exports in the background while you keep
               working.
             </p>
-            <div className="flex flex-col rounded-[10px] py-4 px-5 gap-1 bg-black font-mono">
+            <div className="flex flex-col rounded-[10px] py-4 px-5 gap-1 bg-black font-mono overflow-x-auto">
               <div className="flex rounded-[3px] py-1 px-2 gap-2 bg-[#0c0c0c]">
                 <span className="text-[12px] leading-[1.6] text-[#CCCCCC] font-bold shrink-0">
                   ›
@@ -248,11 +242,11 @@ export default function Home() {
       </section>
 
       {/* Examples */}
-      <section className="flex flex-col items-center pt-20 pb-10 gap-10 px-20">
+      <section className="flex flex-col items-center pt-12 lg:pt-20 pb-10 gap-10 px-6 lg:px-20">
         <h2 className="uppercase tracking-[2px] text-[#555555] font-bold text-sm">
           Examples
         </h2>
-        <div className="flex w-full px-20 gap-6">
+        <div className="flex flex-col lg:flex-row w-full lg:px-20 gap-6">
           <div className="flex flex-col grow shrink basis-0 rounded-xl gap-3 bg-[#111111] border border-solid border-[#222222] p-6">
             <h3 className="text-white font-semibold text-base">
               Export a session
@@ -330,7 +324,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="flex flex-col items-center pt-20 pb-10 gap-6 border-t border-t-[#1A1A1A] px-20">
+      <footer className="flex flex-col items-center pt-12 lg:pt-20 pb-10 gap-6 border-t border-t-[#1A1A1A] px-6 lg:px-20">
         <Image
           src="/logo.png"
           alt="DAMELO.SH"
