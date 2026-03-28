@@ -17,6 +17,29 @@ export const metadata: Metadata = {
   title: "damelo.sh — Share your AI sessions with your team",
   description:
     "Export, import, and browse Claude Code sessions across your organization. Nothing gets lost.",
+  openGraph: {
+    title: "damelo.sh — Share your AI sessions with your team",
+    description:
+      "Export, import, and browse Claude Code sessions across your organization. Nothing gets lost.",
+    url: "https://damelo.sh",
+    siteName: "damelo.sh",
+    images: [
+      {
+        url: "https://damelo.sh/banner.png",
+        width: 1200,
+        height: 630,
+        alt: "damelo.sh",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "damelo.sh — Share your AI sessions with your team",
+    description:
+      "Export, import, and browse Claude Code sessions across your organization. Nothing gets lost.",
+    images: ["https://damelo.sh/banner.png"],
+  },
 };
 
 export default function RootLayout({
