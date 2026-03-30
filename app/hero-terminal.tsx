@@ -23,7 +23,7 @@ const lines = [
     type: "result" as const,
     content: "Exported: ",
     url: "https://damelo.sh/reports/doasfrancisco/37bbfdc4-f961-4b66-b016-bb6ffd2bed22_20260330_152905",
-    urlLabel: "damelo.sh/r/37bbfdc4",
+    urlLabel: "https://damelo.sh/reports/doasfrancisco/37bbfdc4",
   },
   {
     type: "cursor" as const,

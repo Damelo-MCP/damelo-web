@@ -105,7 +105,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="text-[#5B8DEF] underline hover:opacity-80"
                   >
-                    damelo.sh/r/37bbfdc4
+                    https://damelo.sh/reports/doasfrancisco/37bbfdc4
                   </a>
                 </span>
               </div>
