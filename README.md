@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dámelo
 
-## Getting Started
+Share your AI sessions with your team. Export, import, and browse Claude Code sessions across your organization. Nothing gets lost.
 
-First, run the development server:
+Built for teams that ship with AI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## What is Dámelo?
+
+AI coding sessions are ephemeral — once the conversation ends, the context is gone. Dámelo captures and shares those sessions so your team can learn from each other's work.
+
+- **Export sessions** — Save Claude Code sessions with a single command
+- **Import sessions** — Pull a teammate's session into your local context
+- **Browse team sessions** — See what your team shipped, debugged, or discovered
+
+## How it works
+
+Dámelo is an MCP server that integrates directly with Claude Code. Two ways to use it:
+
+**Natural language:**
+```
+> export this session to damelo
+> show me team sessions
+> import carlos's last session
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Slash command:**
+```
+> /tomalo
+```
+Exports the current session in the background while you keep working.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js 16 / React 19
+- Tailwind CSS
+- MCP (Model Context Protocol)
 
-## Learn More
+## Development
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm install
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Links
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [damelo.sh](https://damelo.sh)
+- [GitHub](https://github.com/Damelo-MCP)
